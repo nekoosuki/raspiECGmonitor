@@ -1,0 +1,7 @@
+如果要训练模型，请在https://www.physionet.org/content/mitdb/1.0.0/下载MIT-BIH数据集，将数据文件夹重命名为mit-bih-arrhythmia-database-1.0.0，并放在与此文件同目录。
+
+使用方法：python read.py，运行结束后：python noise.py，运行结束后：python train.py
+
+异常：
+	FileNotFoundError: [Errno 2] No such file or directory: '***\\mit-bih-arrhythmia-database-1.0.0\\100.hea'
+	数据集放置错误

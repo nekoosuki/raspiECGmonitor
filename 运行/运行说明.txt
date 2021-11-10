@@ -1,0 +1,7 @@
+使用方法：python blserial_class.py
+
+代码中DEBUG = False时，从设置的串口接受数据；DEBUG=True时，使用一嘗模拟串口数据。
+
+异常：
+	serial.serialutil.SerialException: could not open port '***': FileNotFoundError(2, '系统找不到指定的路径。', None, 3)
+	找不到串口，需在代码中修改串口。
